@@ -1,13 +1,24 @@
 ##How does the API handle authentication?
   Do I need to authenticate?
+
       *Authentication is strongly recommended.  There are some requests that cannot be made without authentication so.*
 
   What can I do with an unauthenticated request?
+      *Unauthenticated clients can make 60 requests per hour.  For any more than that authentication is required*
+  
   How can I authenticate my request? (3 ways)
+      *There are three authentication methods:
 
+        - **Basic
+
+        - **Authentication token sent in a header:
+
+        - **Authentication token sent in as a parameter*
 
 ##How do I ask the API for...
   The profile information for a specific user?
+
+      *To get information on a single user, use command: GET /users/:username*
   The repository listing for a specific user?
   The recent, public activity for a specific user?
 

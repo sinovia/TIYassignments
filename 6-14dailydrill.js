@@ -2,7 +2,6 @@
 // var str2 = "world!";
 // var res = str1.concat(str2);
 
-
 var word1 = "mix";
 var word2= "pod"
 var word3= (word2[0]+word2[1]+word1[2])
